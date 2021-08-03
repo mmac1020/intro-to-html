@@ -1,0 +1,33 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-container {
+  display: flex;
+}
+
+.example-container > div {
+  flex-basis: 200px;
+}
+
+#grow {
+  flex-grow: 2;
+}
+
+img {
+  width: 500px;
+  padding: 50px;
+  background-color: black;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: mediumaquamarine;
+  }
+}
